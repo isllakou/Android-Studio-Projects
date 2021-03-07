@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/darker_gray"
+    android:id="@+id/Question6"
+    tools:context=".Q6"
+    >
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="94dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/home_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Questionnaire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="#2196F3"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/Questionnaire"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toRightOf="@id/btn_home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_home" />
+
+    <TextView
+        android:id="@+id/Q6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:background="#2196F3"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/Q6"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/Questionnaire"
+        app:layout_constraintRight_toLeftOf="@id/Questionnaire" />
+
+
+    <TextView
+        android:id="@+id/Q6_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="68dp"
+        android:background="#2196F3"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/Q1_6"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/Q6" />
+
+    <Button
+        android:id="@+id/next_Q6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nextt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/previous_Q6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="previouss"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/Q6_6"
+        tools:listitem="@android:layout/simple_list_item_1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

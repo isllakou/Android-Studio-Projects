@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="ntua.ece.travelbox.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_Q1"
+            app:destination="@id/Question1" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="ntua.ece.travelbox.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+
+        <action
+            android:id="@+id/action_SecondFragment_to_Payment"
+            app:destination="@id/Payment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Question1"
+        android:name="ntua.ece.travelbox.Q1"
+        android:label="Q1"
+        tools:layout="@layout/q1_frag">
+
+        <action
+            android:id="@+id/action_Q1_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_Q1_to_Q2"
+            app:destination="@id/Question2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Question2"
+        android:name="ntua.ece.travelbox.Q2"
+        android:label="Q2"
+        tools:layout="@layout/q2_frag">
+
+        <action
+            android:id="@+id/action_Q2_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_Q2_to_Q1"
+            app:destination="@id/Question1" />
+         <action
+            android:id="@+id/action_Q2_to_Q3"
+            app:destination="@id/Question3" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Question3"
+        android:name="ntua.ece.travelbox.Q3"
+        android:label="Q3"
+        tools:layout="@layout/q3_frag">
+
+        <action
+            android:id="@+id/action_Q3_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_Q3_to_Q2"
+            app:destination="@id/Question2" />
+        <action
+            android:id="@+id/action_Q3_to_Q4"
+            app:destination="@id/Question4" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Question4"
+        android:name="ntua.ece.travelbox.Q4"
+        android:label="Q4"
+        tools:layout="@layout/q4_frag">
+
+        <action
+            android:id="@+id/action_Q4_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_Q4_to_Q3"
+            app:destination="@id/Question3" />
+        <action
+            android:id="@+id/action_Q4_to_Q5"
+            app:destination="@id/Question5" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Question5"
+        android:name="ntua.ece.travelbox.Q5"
+        android:label="Q5"
+        tools:layout="@layout/q5_frag">
+
+        <action
+            android:id="@+id/action_Q5_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_Q5_to_Q4"
+            app:destination="@id/Question4" />
+        <action
+            android:id="@+id/action_Q5_to_Q6"
+            app:destination="@id/Question6" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Question6"
+        android:name="ntua.ece.travelbox.Q6"
+        android:label="Q6"
+        tools:layout="@layout/q6_frag">
+
+        <action
+            android:id="@+id/action_Q6_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_Q6_to_Q5"
+            app:destination="@id/Question5" />
+        <action
+            android:id="@+id/action_Q6_to_Q7"
+            app:destination="@id/Question7" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Question7"
+        android:name="ntua.ece.travelbox.Q7"
+        android:label="Q7"
+        tools:layout="@layout/q7_frag">
+
+        <action
+            android:id="@+id/action_Q7_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_Q7_to_Q6"
+            app:destination="@id/Question6" />
+        <action
+            android:id="@+id/action_Q7_to_Q8"
+            app:destination="@id/Question8" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Question8"
+        android:name="ntua.ece.travelbox.Q8"
+        android:label="Q8"
+        tools:layout="@layout/q8_frag">
+
+        <action
+            android:id="@+id/action_Q8_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_Q8_to_Q7"
+            app:destination="@id/Question7" />
+        <action
+            android:id="@+id/action_Q8_to_Q9"
+            app:destination="@id/Question9" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Question9"
+        android:name="ntua.ece.travelbox.Q9"
+        android:label="Q9"
+        tools:layout="@layout/q9_frag">
+
+        <action
+            android:id="@+id/action_Q9_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_Q9_to_Q8"
+            app:destination="@id/Question8" />
+        <action
+            android:id="@+id/action_Q9_to_Q10"
+            app:destination="@id/Question10" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Question10"
+        android:name="ntua.ece.travelbox.Q10"
+        android:label="Q10"
+        tools:layout="@layout/q10_frag">
+
+        <action
+            android:id="@+id/action_Q10_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_Q10_to_Q9"
+            app:destination="@id/Question9" />
+        <action
+            android:id="@+id/action_Q10_to_Destinations"
+            app:destination="@id/Destinations" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Destinations"
+        android:name="ntua.ece.travelbox.Destinations"
+        android:label="Q10"
+        tools:layout="@layout/destinations">
+
+        <action
+            android:id="@+id/action_Destinations_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_Destinations_to_City"
+            app:destination="@id/City" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/City"
+        android:name="ntua.ece.travelbox.City"
+        android:label="Q10"
+        tools:layout="@layout/destinations">
+
+        <action
+            android:id="@+id/action_City_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_City_to_SecondFragment"
+            app:destination="@id/City" />
+        <action
+            android:id="@+id/action_City_to_Destinations"
+            app:destination="@id/Destinations" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/End"
+        android:name="ntua.ece.travelbox.End"
+        android:label="End"
+        tools:layout="@layout/end">
+
+        <action
+            android:id="@+id/action_End_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Payment"
+        android:name="ntua.ece.travelbox.Payment"
+        android:label="Q10"
+        tools:layout="@layout/payment">
+
+        <action
+            android:id="@+id/action_Payment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_Payment_to_End"
+            app:destination="@id/End" />
+
+    </fragment>
+
+
+
+</navigation>
+

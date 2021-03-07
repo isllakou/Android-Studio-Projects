@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Travel Box</string>
+    <string name="action_settings">Lets find your ideal destination</string>//btn1
+    <string name="action_about">Saved Destinations</string>//btn2
+    <!-- Strings used for fragments for navigation -->
+    <string name="app_title">Travel Box</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="Q1_fragment_label">Q1</string>
+    <string name="Q2_fragment_label">Q2</string>
+    <string name="Q3_fragment_label">Q3</string>
+    <string name="Q4_fragment_label">Q4</string>
+    <string name="Q5_fragment_label">Q5</string>
+    <string name="Q6_fragment_label">Q6</string>
+    <string name="Q7_fragment_label">Q7</string>
+    <string name="Q8_fragment_label">Q8</string>
+    <string name="Q9_fragment_label">Q9</string>
+    <string name="Q10_fragment_label">Q10</string>
+
+    <string name="next">Lets find your ideal destination</string>
+    <string name="next2">Saved Destinations</string>
+    <string name="home_button">Home</string>
+    <string name="nextt">next</string>
+    <string name="previouss">previous</string>
+    <string name="previous">previous</string>
+    <string name="textView">Saved Destinations</string>
+    <string name="Questionnaire">Questionnaire</string>
+    <string name="Pay">Pay</string>
+    <string name="Payment">Payment</string>
+
+    <string name="Destinations">Destinations</string>
+    <string name="txtSelectCity">Select City</string>
+    <string name="button_city1">City One</string>
+
+
+    <string name="name">Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="adress">Adress</string>
+    <string name="phone">Phone</string>
+    <string name="numbercard">Number Card</string>
+    <string name="totalcost">Total Cost</string>
+    <string name="terms">I accept the terms</string>
+    <string name="btn_pay">Pay</string>
+
+    <string name="text_name">John</string>
+    <string name="text_last">Kardenas</string>
+    <string name="text_email">kadenas@mail.com</string>
+    <string name="text_adress">Peramatos 5,Athens</string>
+    <string name="text_phone">4521 6482926</string>
+    <string name="text_card">1234 64793847 2354</string>
+
+
+    <string name="Q1">1/10</string>
+    <string name="Q2">2/10</string>
+    <string name="Q3">3/10</string>
+    <string name="Q4">4/10</string>
+    <string name="Q5">5/10</string>
+    <string name="Q6">6/10</string>
+    <string name="Q7">7/10</string>
+    <string name="Q8">8/10</string>
+    <string name="Q9">9/10</string>
+    <string name="Q10">10/10</string>
+
+    <string name="Q1_1">From where do you want to travel?</string>
+    <string name="Q1_2">How much money do you want to spend?</string>
+    <string name="Q1_3">How long are you going to stay?</string>
+    <string name="Q1_4">Are you going to travel alone?</string>
+    <string name="Q1_5">Do you want to travel indoors or outdoors?</string>
+    <string name="Q1_6">Do you like visiting a big city or a village?</string>
+    <string name="Q1_7">If you have to travel should you take a:</string>
+    <string name="Q1_8">What do you prefer?</string>
+    <string name="Q1_9">Which is for you a good place to stay?</string>
+    <string name="Q1_10">How do you want to spend time on your vacation?</string>
+
+    <string name="A1">Type something here</string>
+
+    <string name="A4_1">Yeah, I want to find my piece</string>
+    <string name="A4_2">No, with my friends</string>
+    <string name="A4_3">No, we are a family</string>
+    <string name="A4_4">No, we are a couple</string>
+
+    <string name="A7_1">Plane</string>
+    <string name="A7_2">Boat</string>
+    <string name="A7_3">Train</string>
+    <string name="A7_4">Car</string>
+
+    <string name="A8_1">Beach</string>
+    <string name="A8_2">Mountains</string>
+    <string name="A8_3">Nature</string>
+    <string name="A8_4">Big cities</string>
+
+    <string name="A9_1">a hotel with stars</string>
+    <string name="A9_2">a rented room</string>
+    <string name="A9_3">a camping</string>
+
+    <string name="A10_1">Beach</string>
+    <string name="A10_2">Mountains</string>
+    <string name="A10_3">Nature</string>
+    <string name="A10_4">Big cities</string>
+
+    <string name="city">Type here</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="desc">image 1</string>
+    <string name="logomain">image 2</string>
+
+    <string name="save">Save</string>
+    <string name="text_end">Thank you for your reservation!</string>
+</resources>
